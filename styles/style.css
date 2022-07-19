@@ -71,7 +71,6 @@ main{
     width: 1210px;
     height: 100%;
     margin-top: 50px;
-    border: 1px solid black;
     margin-left: 63px;
 }
 section{
@@ -113,7 +112,7 @@ section{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .player{
-    width: 265px;
+    width: 275px;
     height: 336px;
     border: 1px solid lightgray;
     margin: 0px 0px 24px 24px;
