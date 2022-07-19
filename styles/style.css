@@ -7,7 +7,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 /*-----------********-------------          header section css 
@@ -16,7 +16,7 @@ a{
 header{
     margin-left: 15px;
 }
-.container{
+header .container{
     padding-left: 60px;
     width: 1155px;
     height: 646px;
@@ -24,10 +24,10 @@ header{
     margin-top: 50px;
     border-radius: 5px;
     margin-left: 50px;
-}
+}  
 
-    
-    
+
+
 .left{
     float: left;
     width: 40%;
@@ -42,7 +42,10 @@ header{
     padding-right: 10px;
     font-weight: 400;
 }
-.left button {
+.header-button{
+    color: white;
+}
+.left button{
     background-color: #DD0000;
     color: white;
     font-size: 20px;
@@ -51,6 +54,9 @@ header{
     border-radius: 5px;
     border: none;
 }
+.left button .arrow{
+    margin-left: 10px;
+}
 .right{
     float: right;
     width: 60%;
@@ -58,4 +64,60 @@ header{
 .right img{
     width: 85%;
     margin-top: 25px;
+}
+/*-----------********-------------    main section css 
+-------------*******------------*/
+main{
+    width: 1210px;
+    height: 100%;
+    margin-top: 50px;
+    border: 1px solid black;
+    margin-left: 63px;
+}
+section{
+    display: flex;
+}
+.color{
+    background-color: black;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+}
+.buttons{
+    display: grid;
+    justify-items: stretch;
+    padding-left: 30px;
+}
+.buttons button{
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.buttons a{
+    font-size: 20px;
+    font-weight: 500;
+}
+#blog{
+    background-color: #DD0000;
+}
+#blog a{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+/*-----------------------           players css 
+------------------------*/
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.player{
+    width: 265px;
+    height: 336px;
+    border: 1px solid lightgray;
+    margin: 0px 0px 24px 24px;
+}
+.player-img{
+    width: 100%;
 }
