@@ -122,6 +122,21 @@ section{
     margin: 0px 0px 24px 24px;
     border-radius: 10px;
 }
+.player button{
+    width: 100px;
+    height: 32px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    margin: 20px 0 0 20px;
+}
+.player p{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 19px;
+}
+.player span{
+    padding: 0 15px;
+}
 .player-img{
     width: 100%;
 }
@@ -178,3 +193,18 @@ hr{
 ------------------------*/
 
 
+/* responsive queries */
+
+        /* mobile device */
+
+@media only screen and (max-width:576px) {
+    header .container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: 100%;
+    } 
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0, auto;
+    }
+}
