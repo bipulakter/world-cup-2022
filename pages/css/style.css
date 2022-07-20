@@ -266,7 +266,7 @@ hr{
     }
     .color{
         
-        background-color: rgb(68, 50, 50);
+        background-color: white;
         width: 100%;
         height: auto;
         margin-bottom: 20px;
@@ -286,7 +286,7 @@ hr{
         
     }
     .buttons button{
-        width: 150px;
+        width: 115px;
         height: 64px;
         border-radius: 10px;
         margin-top: 30px;
@@ -373,7 +373,6 @@ hr{
     }
     hr{
         width: 100%;
-        margin: 0px 24px;
     }
 
     .footer-align a{
