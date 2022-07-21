@@ -53,6 +53,9 @@ header .container{
     border-radius: 5px;
     border: none;
 }
+.left button:hover{
+    background-image:linear-gradient(red, rgb(73, 73, 64)); 
+}
 .header-grid button .arrow{
     margin-left: 10px;
 }
@@ -420,8 +423,7 @@ hr{
         background-color: #161616;
         border-radius: 5px;
         border-radius: 30px;
-        margin-left: 10px;
-        
+        margin-left: 10px;    
     }  
     
     .header-grid{
@@ -453,14 +455,15 @@ hr{
         border-radius: 5px;
         border: none;
         margin-left: 10px;
-       ;
+        margin-bottom: 10px;
     }
+    
     .left button .arrow{
         margin-left: 10px;
     }
     .right img{
         width: 100%;
-        margin-top: 60px;
+        margin-top: 86px;
     }
     /*-----------********-------------    
             main section css 
@@ -501,7 +504,7 @@ hr{
         
     }
     .buttons button{
-        width: 230px;
+        width: 200px;
         height: 64px;
         border-radius: 10px;
         margin-top: 30px;
@@ -565,6 +568,7 @@ hr{
         font-size: 20px;
     }
     .button-display{
+        display: block;
         text-align: center;
         margin-top: 24px;
     }
@@ -585,7 +589,7 @@ hr{
     .footer-items{
         color: white;
         text-align: center;
-        padding-top: 130px;
+        padding-top: 60px;
         margin-left: 20px;
     }
     hr{
